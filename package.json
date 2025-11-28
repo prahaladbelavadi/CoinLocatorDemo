@@ -80,7 +80,7 @@
     "app:pre": "node app/index.js",
     "check-env": "node ./check-environment.js",
     "test": "react-scripts test",
-    "build": "react-scripts --openssl-legacy-provider build"
+    "build": "CI=false react-scripts --openssl-legacy-provider build"
   },
   "eslintConfig": {
     "extends": [
